@@ -35,10 +35,10 @@ def input_image_setup(uploaded_file):
 
 # Initialize Streamlit app
 st.set_page_config(
-    page_title="Cal_Cal",
+    page_title="Cal Cal",
     page_icon="🍕")
 
-st.header("Health App")
+st.header("🍕Health App🍕")
 
 # Provide options for uploading or capturing an image
 st.subheader("Input Options")
@@ -90,8 +90,7 @@ if st.button("Tell me the total calories"):
         st.write(response)
     except Exception as e:
         st.error(f"An error occurred: {str(e)}")
-    else:
-        st.info("Please upload or capture an image.")
+   
 
 page_bg_img = '''
     <style>
