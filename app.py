@@ -3,6 +3,7 @@ import streamlit as st
 import os
 import google.generativeai as genai
 from PIL import Image
+#PIL (Python Imaging Library): Used to handle image files.
 
 # Load all environment variables
 load_dotenv()
